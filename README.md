@@ -1,22 +1,44 @@
-# SOLID design principles
+# SOLID Principle Refactoring – Assignment 2 / Quiz 4
 
-This repository contains examples that violate the SOLID principles:
+##  Course Information
+- **Course Name:** Object-Oriented Concepts II (OOC II)
+- **Assignment:** Assignment 2 / Quiz 4
 
-- Single Responsibility Principle: Every class should have a single responsibility. A class should have one, and only
- one, reason to change. 
+---
 
-- Open/Closed Principle: You should be able to extend a classes behavior, without modifying it. Software entities 
-should be open for extension, but closed for modification.
+##  Student Information
+- **Name:** Md Ashraful Abedin  
+- **Student ID:** 230042111  
 
-- Liskov Substitution Principle: Derived classes must be substitutable for their base classes. Functions that use references to base classes must be able to use objects of derived classes without knowing it.
+---
 
-- Interface Segregation Principle: Make fine grained interfaces that are client specific. Clients should not be 
-forced to depend on interfaces they do not use.
+##  Project Description
+This repository contains the refactored solutions for five programming projects that originally violated SOLID principles.
 
-- Dependency Inversion Principle: Depend on abstractions, not on concretions. High-level modules should not depend on
- low-level modules. Both should depend on abstractions.   Abstractions should not depend on details. Details should 
- depend on abstractions.
+The task was to:
+- Analyze existing code that violates SOLID design principles
+- Identify design issues in each project
+- Refactor the code to properly follow SOLID principles
+- Improve maintainability, readability, and extensibility of the system
 
-The objective is modify each of the examples in order to not violate the corresponding SOLID principle.
+---
 
-## You can see solution adopted to every problem in a separated branch.
+##  SOLID Principles Applied
+
+The following SOLID principles were used during refactoring:
+
+- **S – Single Responsibility Principle (SRP)**
+- **O – Open/Closed Principle (OCP)**
+- **L – Liskov Substitution Principle (LSP)**
+- **I – Interface Segregation Principle (ISP)**
+- **D – Dependency Inversion Principle (DIP)**
+
+---
+
+##  Work Overview
+
+Each of the five projects was refactored by:
+- Separating responsibilities into different classes
+- Reducing tight coupling between modules
+- Improving abstraction using interfaces and inheritance
+- Making the code more modular and scalable
